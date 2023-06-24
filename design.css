@@ -13,7 +13,7 @@ html {
 }
 
 .service .head{
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/storage/emulated/0/Download/bigphoto2.jpeg');
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('bigphoto2.jpeg');
     background-size: cover;
     height: 50vh;
     width: 100%;
@@ -41,7 +41,7 @@ html {
 }
 
 .service .down .image{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/storage/emulated/0/Download/photo.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('photo.jpg');
     background-size: cover;
     background-poistion: center;
     width: 50%; 
@@ -149,11 +149,8 @@ html {
     }       
 }
 
-
 @media (min-width: 1440px) and (max-width: 3000px){
     html{
         font-size: 76%;
     }       
 }
-
-
